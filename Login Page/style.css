@@ -1,0 +1,104 @@
+*{
+  box-sizing: border-box;
+
+}
+body {
+  background-color: #e2dfdf;
+}
+#center {
+  display: flex;
+  box-shadow: 0 0 20px 2px  #a9a5a5;
+  margin: auto;
+  width: 55%;
+  margin-top: 35px;
+  margin-left: 26 0px;
+  border-radius: 10px 10px 10px 10px;
+}
+#login-form {
+  width: 554px;
+  height: 650px;
+  background-color: #ffffff;
+  border-radius: 10px 0 0 10px;
+  text-align: center;
+
+}
+#login-form h1 {
+  font-size: 50px;
+  margin-top: 65px;
+  letter-spacing: -1px;
+}
+#profile-pic {
+  width: 155px;
+  height: 150px;
+  margin: auto;
+  margin-top: 30px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 50%;
+  border: 3px solid;
+}
+#profile-pic img {
+  width: 210px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#name {
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+#position {
+  margin-top: 2px;
+}
+#passwordfield {
+  margin-top: 30px;
+  padding-left: 15px;
+  width: 300px;
+  height: 40px;
+  background-color: #d8d8d8;
+  border: none;
+  border-radius: 3px;
+}
+input::-webkit-input-placeholder {
+  font-weight:500;
+  color:#AFB2B3;
+}
+#login-button {
+  margin-top: 10px;
+  width: 300px;
+  height: 35px;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+}
+/* information about the application */
+#information {
+  width: 554px;
+  height: 650px;
+  background-color: #7c9982;
+  border-radius: 0 10px 10px 0;
+  color: #ffffff;
+}
+#application-name h2{
+  line-height: 0.9;
+  font-size: 15px;
+}
+#title h2{
+  font-weight:800;
+  font-size: 32px;
+  line-height: 0.9;
+  letter-spacing: 5px;
+  top: 45%;
+  position: relative;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-shadow: 0 3px 5px #5a5959 ;
+}
+#beside{
+  display: flex;
+  gap:5px;
+}
