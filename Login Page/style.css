@@ -9,7 +9,7 @@ body {
   display: flex;
   box-shadow: 0 0 20px 2px  #a9a5a5;
   margin: auto;
-  width: 55%;
+  width: 45%;
   margin-top: 35px;
   margin-left: 26 0px;
   border-radius: 10px 10px 10px 10px;
@@ -85,6 +85,7 @@ input:focus::placeholder{
 #login-button:hover{
   background-color: #385b03;
 }
+
 /* information about the application */
 #information {
   width: 554px;
@@ -111,7 +112,22 @@ input:focus::placeholder{
 #beside{
   display: flex;
   gap:5px;
-  margin-top: 180px;
-  margin-left: 30px;
+  margin-top: 160px;
+  margin-left: 20px;
+}
+#description h3{
+  font-size: 14px;
+  text-align: justify;
+  margin: 20px;
 }
 
+#date-and-time h2{
+  font-size: 17px;  
+  font-weight: bold;
+  text-align:end;
+  margin-right: 20px;
+  margin-bottom: 0px;
+}
+#date-and-time{
+  margin-top: 160px;
+}
