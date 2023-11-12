@@ -54,6 +54,14 @@ margin: 0;
     .icon{
       filter: brightness(0) invert(1);
     }
+ }
+ #selected .nav-link{
+  color: white;
+  padding-left: 25px;
+  background-color: #314C1C;
+  .icon{
+    filter: brightness(0) invert(1);
+  }
 
  }
  .icon{ 
@@ -69,9 +77,23 @@ margin: 0;
  .parent{
    display: flex;
  }
- #data-input, #nav-menu{
+ #title, #nav-menu{
    flex: 1;
  }
- #data-input h1{
-   padding: 10px 20px;
+
+ #title h1{
+  font-size: 60px;
+   padding:30px 40px;
  }
+ #title{
+  width: 100%;
+  height: auto;
+  background-color: white;
+ }
+#form-entry{
+  width: 82%;
+}
+
+fieldset{
+ 
+}

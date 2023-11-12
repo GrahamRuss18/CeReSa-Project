@@ -25,7 +25,7 @@
   </head>
   <body>
     <div class="parent">
-      <div class="col-*" id="nav-bar">
+      <div  id="nav-bar">
         <div id="profile-pic">
           <img
             src="https://m.media-amazon.com/images/M/MV5BZDgwZDkxMDctNDMxZC00MjRmLTk5MjQtOGUwMTg5ODA5MzI3XkEyXkFqcGdeQXVyMTMxODA4Njgx._V1_FMjpg_UX1000_.jpg"
@@ -51,7 +51,7 @@
                   Dashboard</a
                 >
               </li>
-              <li class="nav-item">
+              <li class="nav-item" id="selected">
                 <a class="nav-link" href="#">
                   <img
                     src="https://img.icons8.com/314C1C/dotty/2x/edit-property.png"
@@ -105,9 +105,34 @@
         </div>
       </div>
       <!-- Data Input Form -->
-      <div id="data-input">
-        <h1>Data Input</h1>
+      <div id="form-entry">
+        
+        <div id="title">
+          <h1>Data Input</h1>
+        </div>
+        <div class="container" id="form">
+          <form>
+            <fieldset >
+              <legend>Personal Information</legend>
+              <!-- <div class="textfied" > -->
+                <input type="text" name="firstname" placeholder="Firstname" required />
+                <input type="text" name="middlename" placeholder="Middlename" required />
+                <input type="text" name="lastname" placeholder="lastname" required /><br>
+                <input type="text">
+              <!-- </div> -->
+              <!-- <div class="textfield"> -->
+  
+              </div>
+            </fieldset>
+  
+          </form>
+          
+  
+
+        </div>
+        
       </div>
+      
     </div>
   </body>
 </html>

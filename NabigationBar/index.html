@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  <body>
+
+    <div class="parent" class="container-fluid">
+        <!-- Navigation Bar -->
+      <div class="child" id="nav-bar">
+        <nav class="navbar">
+          <div class="container-fluid">
+            <!-- Barangay Logo -->
+            <div id="logo">
+                <img src="image 8.jpg" alt="">
+            </div>
+
+             <!-- Items -->
+            <ul class="navbar-nav">
+              <li class="nav-item" >
+                <a class="nav-link" href="#" 
+                  ><img
+                    src="https://img.icons8.com/314C1C/ios7/2x/performance-macbook.png"
+                    alt=""
+                /></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="#" 
+                  ><img
+                    src="https://img.icons8.com/314C1C/ios7/2x/today.png"
+                    alt=""
+                /></a>
+              </li>
+              <li class="nav-item" >
+                <a class="nav-link" href="#" 
+                  ><img
+                    src="https://img.icons8.com/314C1C/ios7/2x/touchpad.png"
+                    alt=""
+                /></a>
+              </li>
+              <li class="nav-item" >
+                
+                <a class="nav-link" href="#" 
+                  ><img
+                    src="https://img.icons8.com/314C1C/ios7/2x/financial-analytics.png"
+                    alt=""
+                />
+                <div class="tooltip">
+                    <span class="tooltiptext">Reports & Analytics</span>
+                </div>
+            </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" 
+                  ><img
+                    src="https://img.icons8.com/314C1C/ios7/2x/transaction-approved.png"
+                    alt=""
+                /></a>
+              </li>
+              <li class="nav-item" >
+                <a class="nav-link" href="#" 
+                  ><img
+                    src="https://img.icons8.com/314C1C/ios7/2x/exit.png"
+                    alt=""
+                /></a>
+              </li>
+            </ul>
+            <!-- Admin Profile -->
+            <div id="profile">
+                <img src="367381950_1532902484135624_1810089275688173239_n.png" alt="">
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+          return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+        </script>
+  </body>
+</html>
