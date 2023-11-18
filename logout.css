@@ -1,0 +1,179 @@
+.child.rectangle-4067 {
+    background-image: url('Logout Page\Rectangle 4067.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  .parent {
+    display: flex;
+  }
+  #nav-bar{
+    width: 6%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #3a7976;
+    border-radius: 0 15px 15px 0;
+    box-shadow: 3px 0 10px gray;
+  }
+  /* logo */
+  #logo img {
+    width: 50px;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+  }
+  #logo {
+    width: 100%;
+    height: 80px;
+    background: #558482;
+    border-radius: 0 15px 0 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Navigation bar */
+  ul {
+    margin: 50px 0;
+    padding-left: 0;
+    list-style: none;
+  }
+  li {
+    padding: 5px 0;
+    margin: 20px 1px;
+  }
+  img {
+    margin-left: 25px;
+    width: 35px;
+    height: auto;
+  }
+  li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  
+   .tooltip{
+      position: relative;
+      display: inline-block;
+    }
+    .tooltip .tooltiptext {
+      margin-left: 40px;
+      padding-left: 15px;
+      padding-right: 15px;
+      visibility: visible;
+      top: -38px;
+      left: 120%;
+      overflow: visible;
+    }
+  }
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgb(136, 131, 131);
+    color: #fff;
+    text-align: center;
+    padding: 7px 3px;
+    border-radius: 6px;
+  
+    /* Position the tooltip text*/
+    position: absolute;
+    z-index: 5;
+  }
+  
+  /* Admin Profile */
+  #profile img {
+    width: 60%;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+  }
+  #profile {
+    height: 80px;
+    background: #558482;
+    border-radius: 0 0 15px 0;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 6%;
+  }
+  .rectangle-4242{
+	background-color: #e9eff099;
+	box-shadow: 0px 4px 4px #00000040;
+	height: 304px;
+	left: 425px;
+	position: absolute;
+	top: 200px;
+	width: 507px;
+}
+@font-face {
+    font-family: "Arial-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.ananimaapp.com/Arial-Regular") format("truetype");
+}
+
+.are-you-sure-you-want-to-logout {
+    color: var(--black);
+    font-family: "Arial-Regular"; 
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    left: 700px;
+    letter-spacing: 3px;
+    line-height: normal;
+    text-align: center;
+    top: 417px; 
+}
+.rectangle-4245 {
+	background-color: #20525c;
+	border-radius: 50px;
+	box-shadow: 0px 4px 4px #00000040;
+	height: 51px;
+	left: 490px;
+	position: absolute;
+	top: 400px;
+	width: 175px;
+}
+.rectangle-4246 {
+	background-color: #E2DFDF;
+	border-radius: 50px;
+    border-color: #20525c;
+	box-shadow: 0px 4px 4px #00000040;
+	height: 51px;
+	left: 690px;
+	position: absolute;
+	top: 400px;
+	width: 175px;
+}
+@font-face {
+    font-family: "Arial-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.ananimaapp.com/Arial-Regular") format("truetype");
+}
+
+.yes {
+    color: var(--black);
+    font-family: "Arial-Regular"; 
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    left: 490px;
+    letter-spacing: 3px;
+    line-height: normal;
+    text-align: center;
+    top: 400px;
+}     
+.no {
+    color: var(--black);
+    font-family: "Arial-Regular"; 
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    left: 540px;
+    letter-spacing: 3px;
+    line-height: normal;
+    text-align: center;
+    top: 400px;
+}     
